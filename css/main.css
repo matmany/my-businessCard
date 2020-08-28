@@ -46,5 +46,30 @@
 }
 
 .me{
+    max-width: 300px;
+    margin: 40px auto 0 auto !important;
+    border: 5px solid red;
+    float: none !important;
+    align-items: center !important;
+    display: flex !important;
+    height: 180px;
+}
+
+.flex-colum{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 128px;
+}
+
+.about{
     margin-bottom: 0 !important;
+    height: 128px;
+}
+
+.logos{
+    height: 30px !important;
+    width: 30px !important;
+ 
+    /* margin-bottom: 5px; */
 }
