@@ -3,7 +3,7 @@
 #card-fundo {
     position: relative !important;
     height: 900px;
-    background-color: #001233;
+    background-color: #020D1E;
     
 }
 
@@ -135,3 +135,28 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.invible {
+    visibility: hidden;
+}
+
+.visible{
+    visibility: visible;
+}
+
+/* @keyframes drawIn {
+    0% {
+      stroke: transparent;
+      stroke-dashoffset: 10000;
+    }
+    75% {
+      stroke: white;
+    }
+  }
+
+.mask-path {
+    stroke: white;
+    stroke-dasharray: 10000;
+    -webkit-animation: drawIn 2.5s 1s ease-in both;
+            animation: drawIn 2.5s 1s ease-in both;
+  } */
