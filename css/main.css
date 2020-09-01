@@ -168,3 +168,64 @@
     -webkit-animation: drawIn 2.5s 1s ease-in both;
             animation: drawIn 2.5s 1s ease-in both;
   } */
+nav{
+/* background-color: #335384;  */
+}
+
+.canva-blue {
+background-color: #335384;
+}
+.sidenav{
+width: 350px !important;
+
+}
+
+#nav-div{
+height: auto !important;
+margin-top: 15px;
+}
+
+#nav-div > div{
+width: 300px !important;
+}
+
+#resume {
+height: auto !important;
+}
+
+#all-thing{
+    margin-top: 20px;
+    height: auto !important;
+}
+
+#resume .title-name{
+    font-size: 1.0pc;
+    color: rgb(51,83,132);
+    font-weight: 600;
+}
+
+#resume .subtitle{
+    font-size: 1pc;
+    color: #5BA7D1;
+}
+
+.gray-line{
+    width: 10% !important;
+    height: 2px;
+    margin-top: 25px;
+    /* margin-bottom: 15px; */
+    /* margin: 0 auto; */
+    background-color: #A1A19F;
+}
+
+#resume .info{
+width: 70%;
+min-width: 300px;
+margin-bottom: 15px;
+}
+
+#resume .info-title{
+    font-size: 18px;
+    font-weight: 700;
+    color: #5BA7D1;
+}

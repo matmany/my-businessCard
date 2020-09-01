@@ -1,6 +1,10 @@
 let v = 1;
 function main(){
     // let codigo1 = ["int main(){",""];
+    $(document).ready(function(){
+        $('.sidenav').sidenav();
+      });
+      
     const codPlace = $("#codigo");
     let codigo1 = `int main(){#print('Hey dude');`
     let html =  generateHTML(codigo1);
