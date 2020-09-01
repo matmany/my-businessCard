@@ -22,7 +22,7 @@ function generateHTML(codigo){
             continue;
         }
         index++;
-        oneElement = `<i id="${index}" class="invible">${charac}</i>`;
+        oneElement = `<i id="${index}" class="invisible">${charac}</i>`;
         html+= oneElement;
     }
 
@@ -30,7 +30,7 @@ function generateHTML(codigo){
 }
 
 function showCode2(){
-    $(`#${v}`).removeClass("invible");
+    $(`#${v}`).removeClass("invisible");
     v++;
 }
 

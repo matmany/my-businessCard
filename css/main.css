@@ -136,12 +136,20 @@
   -webkit-text-fill-color: transparent;
 }
 
-.invible {
+.invisible {
     visibility: hidden;
+}
+
+.dis-none{
+    display: none;
 }
 
 .visible{
     visibility: visible;
+}
+
+#about-me{
+    background-color: #335384;
 }
 
 /* @keyframes drawIn {
