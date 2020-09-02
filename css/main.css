@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
+main {
+    margin-bottom: 0 !important;
+}
+
 #card-fundo {
     position: relative !important;
-    height: 900px;
+    height: 100vh;
     background-color: #020D1E;
     
 }
@@ -87,17 +91,12 @@
 
 }
 
-.material-icons{
+#card-fundo .material-icons{
     font-size: 100px !important;
 }
 
 .center-text{
     text-align: center;
-}
-
-.my-btn{
-    /* margin-bottom: 10px !important; */
-    /* padding-bottom: 10px !important; */
 }
 
 .legend{
@@ -152,33 +151,32 @@
     background-color: #335384;
 }
 
-/* @keyframes drawIn {
-    0% {
-      stroke: transparent;
-      stroke-dashoffset: 10000;
-    }
-    75% {
-      stroke: white;
-    }
-  }
-
-.mask-path {
-    stroke: white;
-    stroke-dasharray: 10000;
-    -webkit-animation: drawIn 2.5s 1s ease-in both;
-            animation: drawIn 2.5s 1s ease-in both;
-  } */
 nav{
-/* background-color: #335384;  */
+    color: #F8FFFF;
 }
 
 .canva-blue {
 background-color: #335384;
 }
+
+
 .sidenav{
-width: 350px !important;
+    width: 350px !important;
+}
+
+.side-info{
+    color: #F8FFFF;
 
 }
+
+.side-info label{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+
+}
+
+
 
 #nav-div{
 height: auto !important;
@@ -189,8 +187,22 @@ margin-top: 15px;
 width: 300px !important;
 }
 
+nav i{
+    font-size: 25px !important;
+}
+
+.nav-info{
+    margin-top: 25px;
+}
+
+.nav-info ul {
+    margin-left: 5px;
+}
+
 #resume {
 height: auto !important;
+padding-left: 0 !important;
+/* max-width: 940px; */
 }
 
 #all-thing{
@@ -199,7 +211,7 @@ height: auto !important;
 }
 
 #resume .title-name{
-    font-size: 1.0pc;
+    font-size: 1.5pc;
     color: rgb(51,83,132);
     font-weight: 600;
 }
@@ -210,7 +222,7 @@ height: auto !important;
 }
 
 .gray-line{
-    width: 10% !important;
+    width: 70% !important;
     height: 2px;
     margin-top: 25px;
     /* margin-bottom: 15px; */
@@ -254,4 +266,26 @@ li .material-icons{
     color: #5BA7D1;
     margin-bottom: 10px !important;
     /* margin-bottom: 25px !important; */
+}
+
+#short-info{
+    padding-top: 10px;
+    display: none;
+    height: 100vh !important;
+}
+
+#short-info .nav-info{
+    width: 100%;
+}
+
+#short-info li{
+    line-height: 25px;
+}
+
+
+
+
+.fix-resume{
+    max-width: 1040px;
+    margin: 0 auto !important;
 }

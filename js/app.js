@@ -1,18 +1,26 @@
 let v = 1;
+let interval = [];
 function main(){
     // let codigo1 = ["int main(){",""];
+    let btn = $('#my-btn');
     $(document).ready(function(){
         $('.sidenav').sidenav();
       });
-      
+    
     const codPlace = $("#codigo");
     let codigo1 = `int main(){#print('Hey dude');`
     let html =  generateHTML(codigo1);
     codPlace.append(html);
     let index = 1;
 
+    btn.click(function(){
+        $('#card-fundo').addClass('dis-none');
+        $('#my-nav-div').removeClass('dis-none');
+        $('#resume').removeClass('dis-none');
+    });
+
    // window.setInterval(lines[index].UpdateRandomChar.bind(lines[index]), time);
-   window.setInterval(showCode2,100,index);
+   interval = window.setInterval(showCode2,100,index);
 
 }
 

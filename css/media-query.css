@@ -1,0 +1,43 @@
+@media screen and (min-width: 850px) {
+    .navbar-fixed{
+        display: none;
+    }
+
+    #short-info {
+        overflow: auto;
+        display: flex;
+        position: fixed;
+        max-width: 300px;
+
+    }
+
+    #all-thing{
+        margin-left: 28%;
+    }
+
+    .title-name {
+        font-size: 2.0pc !important;
+    }
+}
+
+/* @media screen and (min-width: 630px){
+    #short-info {
+        max-width: 300px;
+
+    }
+} */
+
+@media screen and (min-width: 950px) {
+    
+    .title-name {
+        font-size: 3.0pc !important;
+    }
+
+    #all-thing{
+        margin-left: 23%;
+    }
+
+    #short-info li{
+        line-height: 38px;
+    }
+}
