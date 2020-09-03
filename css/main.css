@@ -66,6 +66,10 @@ main {
     height: 128px;
 }
 
+.space-between{
+    justify-content: space-between;
+}
+
 .about{
     margin-bottom: 0 !important;
     height: 128px;
