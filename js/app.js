@@ -3,6 +3,9 @@ let interval = [];
 function main() {
     // let codigo1 = ["int main(){",""];
     let btn = $('#my-btn');
+    const emailIcon = $('#my-email');
+    //const myEmail = 'matmanymat@gmail.com';
+
     $(document).ready(function () {
         $('.sidenav').sidenav();
     });
@@ -22,6 +25,8 @@ function main() {
         $('#my-nav-div').removeClass('dis-none');
         $('#resume').removeClass('dis-none');
     });
+
+    emailIcon.on("click",copieToClipboard);
 
     interval = window.setInterval(showCode2, 100, index);
 
@@ -52,6 +57,15 @@ function showCode2() {
     v++;
     if(v>237)
         clearInterval(interval);
+}
+
+function copieToClipboard(){
+    const newText = 'matmanymat@gmail.com';
+    navigator.clipboard.writeText(newText).then(function(){
+        alert("email copiado " + newText);
+    }, function(){
+        alert("email" + newText);
+    });
 }
 
 $(main);
