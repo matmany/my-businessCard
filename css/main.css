@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
 
 main {
     margin-bottom: 0 !important;
@@ -12,6 +13,7 @@ main {
 }
 
 #codigo {
+    font-size: 16px;
     filter: blur(1.5px);
     color: aliceblue;
 }
@@ -30,6 +32,11 @@ main {
     border-bottom-right-radius: 90px;
 }
 
+.power{
+    width: 30px;
+    height: 30px;
+}
+
 
 .card {
     position: absolute !important;
@@ -44,19 +51,45 @@ main {
     /* rgb(4,102,200) */
     /* background: rgba(4, 102, 200, 0.7) !important; */
     /* rgb(51,83,132) */
-    background: rgba(51, 83, 132, 0.7) !important;
-    border: 5px solid #ff9f1c;
+    /* background: rgba(51, 83, 132, 0.7) !important; */
+    /* border: 5px solid #ff9f1c; */
+
+    background: linear-gradient(45deg, rgba(249,146,101,1) 0%, rgba(207,20,137,1) 100%);
     
+}
+
+.icon-group label {
+    color: #fff;
+}
+
+.card-title{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding-right: 18px !important;
+    padding-left: 22px !important;
+}
+
+.card-title a{
+    width: 75px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-group{
+    margin: 20px 0 20px 0 !important;
 }
 
 .me{
     max-width: 300px;
     margin: 40px auto 0 auto !important;
-    border: 2px solid #d4d3d3;
+    border: 2px solid #f4f4f4;
     float: none !important;
     align-items: center !important;
     display: flex !important;
     height: 180px;
+    border-radius: 10px 10px 0 0;
 }
 
 .flex-colum{
@@ -95,7 +128,7 @@ main {
 
 }
 
-#card-fundo .material-icons{
+.icon-group .material-icons{
     font-size: 100px !important;
 }
 
@@ -105,22 +138,25 @@ main {
 
 .legend{
     /* background-color: #D7D1D1; */
-    background: rgb(98,98,98);
-    background: linear-gradient(45deg, rgba(98,98,98,1) 0%, rgba(212,211,211,1) 53%, rgba(254,254,254,1) 100%);
+    /* background: rgb(98,98,98);
+    background: linear-gradient(45deg, rgba(98,98,98,1) 0%, rgba(212,211,211,1) 53%, rgba(254,254,254,1) 100%); */
+    background-color: #f4f4f4;
     max-width: 300px;
     text-align: center;
     margin: 0 auto;
-    font-size: 10px;
+    font-size: 11px;
+
     border-bottom-right-radius:15px;
     border-bottom-left-radius:15px;
+    font-family: 'Lato', sans-serif;
 }
 
 .line{
     width: 250px !important;
     height: 2px;
     /* margin-bottom: 15px; */
-    margin: 0 auto 15px auto;
-    background-color: #ff9f1c;
+    margin: 15px auto 25px auto;
+    background-color: #ffff00;
 }
 
 .field{
@@ -137,6 +173,12 @@ main {
     background: linear-gradient(45deg, rgba(240,217,30,1) 0%, rgba(232,209,68,1) 38%, rgba(245,42,21,1) 72%, rgba(251,4,1,1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.match-color {
+    background-color: #f50057  !important;
+}
+.plus {
+    font-size: 30px !important;
 }
 
 .invisible {
@@ -197,6 +239,12 @@ nav i{
 
 .nav-info{
     margin-top: 25px;
+    line-height: 1px;
+}
+
+.arrow{
+    font-size: 10px !important;
+    margin-right: 10px;
 }
 
 .nav-info ul {
@@ -239,6 +287,15 @@ width: 70%;
 min-width: 300px;
 margin-bottom: 50px;
 }
+
+.info li {
+    display: flex;
+}
+
+.info .material-icons{
+    margin-top: 20px;
+    margin-left: 8px;
+} 
 
 #resume li {
     margin-bottom: 5px;
@@ -286,10 +343,17 @@ li .material-icons{
     line-height: 25px;
 }
 
-
-
-
 .fix-resume{
     max-width: 1040px;
     margin: 0 auto !important;
+}
+
+
+.extras p{
+    display: flex;
+}
+
+.extras i{
+    margin-top: 5px !important;
+    margin-left: 8px;
 }

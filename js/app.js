@@ -50,6 +50,8 @@ function generateHTML(codigo) {
 function showCode2() {
     $(`#${v}`).removeClass("invisible");
     v++;
+    if(v>237)
+        clearInterval(interval);
 }
 
 $(main);
