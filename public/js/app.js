@@ -62,9 +62,11 @@ function showCode2() {
 function copieToClipboard(){
     const newText = 'matmanymat@gmail.com';
     navigator.clipboard.writeText(newText).then(function(){
-        alert("email copiado " + newText);
+        // alert("email copiado " + newText);
+        M.toast({html:'email copiado: ' + newText});
     }, function(){
-        alert("email" + newText);
+        M.toast({html:'matmanymat@gmail.com'});
+        // alert("email" + newText);
     });
 }
 
