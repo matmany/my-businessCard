@@ -80,6 +80,7 @@ main {
 .powers {
     display: flex;
     width: 75px;
+    margin-right: 3px;
     justify-content: space-between;
 }
 .power a {
@@ -114,6 +115,13 @@ main {
     height: 128px;
 }
 
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
 .space-between{
     justify-content: space-between;
 }
@@ -123,8 +131,16 @@ main {
 }
 
 .about{
+    margin-top: 5px;
     margin-bottom: 0 !important;
-    height: 128px;
+    height: 134px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about a{
+    height: 30px !important;
 }
 
 .logos{
@@ -135,7 +151,7 @@ main {
 }
 
 .bloco {
-    height: 150px;
+    height: 135px;
     display: flex !important;
     flex-direction: column;
     align-items: center;
@@ -148,7 +164,7 @@ main {
 }
 
 .icon-group .material-icons{
-    font-size: 100px !important;
+    font-size: 90px !important;
 }
 
 .center-text{
@@ -202,7 +218,7 @@ main {
     background-color: #f50057  !important;
 }
 .plus {
-    font-size: 30px !important;
+    font-size: 23px !important;
 }
 
 .invisible {
