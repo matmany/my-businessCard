@@ -112,7 +112,6 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 128px;
 }
 
 .flex-row{
@@ -154,16 +153,26 @@ main {
     height: 135px;
     display: flex !important;
     flex-direction: column;
-    align-items: center;
+}
+
+.bloco i{
+    margin-left: -7px !important;
 }
 
 .bloco label {
-    text-align: center;
     font-size: 25px;
 
 }
 
-.icon-group .material-icons{
+.item-block{
+    max-width: 150px;
+    min-width: 150px;
+    min-height: 150px;
+    max-width: 150px;
+}
+
+
+.bloco .material-icons{
     font-size: 90px !important;
 }
 
